@@ -1,0 +1,14 @@
+name = "svelte-kit-intro"
+account_id = '095a150437fa7fa7e9eb3e7f9064a223'
+site = {bucket = "./build", entry-point = "./workers-site"}
+
+type = "javascript"
+compatibility_date = "2021-11-08"
+workers_dev = true
+
+[build]
+# Assume it's already been built. You can make this "npm run build" to ensure a build before publishing
+command = ""
+
+[build.upload]
+format = "service-worker"
